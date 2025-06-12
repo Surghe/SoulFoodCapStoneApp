@@ -13,11 +13,12 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.error(err));
 
-const menuRoutes = ('./routes/menuRoutes');
+
+const menuRoutes = ('./routes/menu');
 app.use('/api/menu', menuRoutes);
 
 
-const authRoutes = require('./routes/auth');
+const authRoutes = ('./routes/auth');
 app.use('/api/auth', authRoutes);
 
 
