@@ -43,4 +43,12 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
+
+
+const auth = require('../middleware/auth');
+
+router.post('/', auth, async (req, res) => { /* create */ });
+router.put('/:id', auth, async (req, res) => { /* update */ });
+router.delete('/:id', auth, async (req, res) => { /* delete */ });
+
 export default router;
