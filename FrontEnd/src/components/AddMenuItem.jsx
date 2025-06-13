@@ -1,9 +1,10 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
-const AddMenuItem = () => {
+
+const  AddMenuItem  = () => {
   const { token } = useContext(AuthContext);
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
