@@ -1,4 +1,4 @@
-🍽️ Restaurant MERN Stack Application
+ Restaurant MERN Stack Application
 
 This project is a full-stack restaurant application built with the MERN stack:
 
@@ -12,7 +12,7 @@ Node.js for the runtime environment
 
 It includes JWT-based authentication, CRUD functionality for menu items, user roles (admin/user), and is styled for basic usability.
 
-📁 Project Structure
+ Project Structure
 
 restaurant-app/
 ├── backend/
@@ -52,7 +52,7 @@ Start the backend server:
 
 node server.js
 
-🎨 Frontend Setup
+ Frontend Setup
 
 Navigate to the frontend folder:
 
@@ -131,14 +131,6 @@ DELETE /api/menu/:id
 Frontend logs confirm component load and API call status.
 
 Backend logs confirm API hits, saved items, or JWT errors.
-
-📌 Next Steps
-
-Add 3rd-party API integration
-
-Add comments or reviews for menu items
-
-Expand UI styling and responsiveness
 
 💡 Summary
 
